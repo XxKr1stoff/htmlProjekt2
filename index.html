@@ -1,25 +1,75 @@
+<!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Classic Burger</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cloudflare.com" />
+    <script src="javaScript.js" defer></script>
   </head>
   <body>
     <div id="sidebar">
       <a href=""><img id="lupa" src="./assets/lupa.png" alt="lupa" /></a>
-      <a href=""><img id="wiecej" src="./assets/wiecej.png" alt="lupa" /></a>
+      <a href=""><img id="wiecej" src="./assets/wiecej.png" alt="wiecej" /></a>
     </div>
+    <div id="mainContent">
+      <header>
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Recipes</a>
+        <a href="">About</a>
+        <div>
+          <a href="" id="LogIn">Log in</a>
+          <a href="" id="SignIn">Sign up</a>
+        </div>
+      </header>
+      <main>
+        <div id="classicBurger">
+          <div class="goraKarty">
+            <div class="kropki">
+              <span class="wybrane"></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="kcal">
+              <h3>472</h3>
+              <span>kcal</span>
+            </div>
+          </div>
+          <img src="./assets/classic.svg" alt="classic" />
+          <h1>Classic Burger</h1>
+          <div id="wartosciBox">
+            <h3>Fat – <span class="wartosc">26 g</span></h3>
+            <h3>Saturates – <span class="wartosc">10 g</span></h3>
+            <h3>Sugars – <span class="wartosc">18 g</span></h3>
+            <h3>Salt – <span class="wartosc">1 g</span></h3>
+          </div>
+          <span id="opis"
+            >The classic burger is an all-time BBQ favourite. Juicy beef patties
+            with crispy bacon, cheddar, onion, tomato and fresh lettuce, all
+            tucked into a toasted sesame bun.</span
+          >
+          <div class="dolDuze">
+            <div class="iloscDuze">
+              <button class="odejmij">&minus;</button>
+              <span class="wartosc">0</span>
+              <button class="dodaj">&plus;</button>
+            </div>
+            <div class="strefaKoszykowaDuze">
+              <span class="cena">$16</span>
 
-    <header>
-      <a href="">Home</a>
-      <a href="">Products</a>
-      <a href="">Recipes</a>
-      <a href="">About</a>
-      <div>
-        <a href="" id="LogIn">Log in</a>
-        <a href="" id="SignIn">Sign up</a>
-      </div>
-    </header>
+              <button class="koszykDuze">
+                <img src="./assets/koszyk.svg" alt="koszyk" />
+                <span id="kreskaDuza"></span>
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
