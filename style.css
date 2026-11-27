@@ -81,7 +81,7 @@ header {
   flex: 1;
 
   color: black;
-  margin: calc(var(--margines) / 2);
+  margin: 35px;
   margin-left: 65px;
 
   gap: 45px;
@@ -137,7 +137,7 @@ header div a {
   width: 100%;
   height: 100%;
 
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 #mainContent main > div {
@@ -155,14 +155,14 @@ header div a {
 .kropki {
   display: flex;
 
-  gap: 4px;
+  gap: 0.55cqh;
   align-items: center;
 }
 
 .kropki span {
   background-color: #ccc;
-  width: 8px;
-  height: 8px;
+  width: 1.2cqh;
+  height: 1.2cqh;
   border-radius: 100%;
 }
 
@@ -179,7 +179,7 @@ header div a {
 
   font-family: Arial, Helvetica, sans-serif;
 
-  padding: 4px;
+  padding: 0.55cqh;
   border: #eee solid 2px;
   border-radius: 100%;
 
@@ -187,10 +187,10 @@ header div a {
   justify-content: center;
   align-items: center;
 
-  width: calc(var(--wysokosc) / 10);
-  height: calc(var(--wysokosc) / 10);
+  width: 9cqh;
+  height: 9cqh;
 
-  font-size: 1rem;
+  font-size: 2cqh;
 }
 
 #kcal h3 {
@@ -206,24 +206,27 @@ header div a {
 #classicBurger {
   display: flex;
   flex-direction: column;
-  height: var(--wysokosc);
-  width: calc(var(--wysokosc) * var(--mnoznik) * 1.2);
+  height: 700px;
+  aspect-ratio: 0.75 / 1;
   margin-left: 65px;
   border: solid #eee 2px;
   border-radius: 50px;
 
-  padding: calc(var(--wysokosc) * 0.05);
+  padding: 4.5cqh;
+
+  box-sizing: border-box;
+  container-type: size;
 }
 
 #classicBurger > img {
   display: flex;
   align-self: center;
-  width: calc((var(--wysokosc) * var(--mnoznik)) * 0.7);
-  margin-top: calc((var(--wysokosc) * var(--mnoznik)) * 0.05);
+  width: 55cqh;
+  margin-top: 3cqh;
 }
 
 #classicBurger > h1 {
-  font-size: 3.6rem;
+  font-size: 8cqh;
   margin: 0;
 }
 
@@ -231,12 +234,11 @@ header div a {
   display: flex;
   flex-direction: row;
   width: auto;
-  gap: 10px;
+  gap: 1.65cqh;
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8rem;
-
-  margin: 20px;
+  font-size: 1.6cqh;
+  margin: 2.65cqh;
   margin-left: 0px;
 }
 
@@ -244,7 +246,7 @@ header div a {
   margin: 0px;
   font-weight: lighter;
 
-  padding: 7px 17px;
+  padding: 0.95cqh 2.25cqh;
   border: solid #eee 2px;
   border-radius: 10px;
 }
@@ -255,7 +257,7 @@ header div a {
 
 #opis {
   color: #555;
-  font-size: 1.2rem;
+  font-size: 2.4cqh;
 }
 
 .iloscDuze {
@@ -266,11 +268,11 @@ header div a {
 
   background-color: #f4f4f4;
 
-  width: 120px;
-  padding: 5px;
+  width: 16cqh;
+  padding: 0.65cqh;
   border-radius: 10px;
 
-  margin-top: 30px;
+  margin-top: 4cqh;
 }
 
 .iloscDuze button {
@@ -279,10 +281,10 @@ header div a {
   justify-content: center;
   align-items: center;
 
-  width: 40px;
-  height: 40px;
+  width: 5.3cqh;
+  height: 5.3cqh;
   line-height: 1;
-  font-size: 1.5rem;
+  font-size: 3cqh;
   margin: 0px;
   background: none;
   border: none;
@@ -294,10 +296,10 @@ header div a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 5.3cqh;
+  height: 5.3cqh;
 
-  font-size: 1.2rem;
+  font-size: 2.4cqh;
 }
 
 .odejmij {
@@ -310,7 +312,6 @@ header div a {
 
 .dolDuze {
   display: flex;
-  gap: auto;
 }
 
 .koszykDuze {
@@ -319,38 +320,38 @@ header div a {
   justify-content: center;
   align-items: center;
 
-  font-size: 1.2rem;
+  font-size: 2.4cqh;
   font-weight: bold;
   font-family: sans-serif, Arial, Helvetica;
   border: none;
   background-color: #e5f1e8;
   color: #235d3a;
-  width: 200px;
-  height: 50px;
-  padding: 5px;
+  width: 26.6cqh;
+  height: 6.65cqh;
+  padding: 0.65cqh;
   border-radius: 10px;
 
   cursor: pointer;
 }
 
 .koszykDuze img {
-  width: 20px;
-  padding: 10px;
+  width: 2.6cqh;
+  padding: 1.3cqh;
 }
 
 .koszykDuze span {
-  padding: 10px;
+  padding: 1.3cqh;
 }
 
 #kreskaDuza {
   border-left: solid #9ec9a9 2px;
-  height: 25px;
+  height: 3.3cqh;
   padding: 0px;
 }
 
 .strefaKoszykowaDuze {
   display: flex;
-  margin-top: 30px;
+  margin-top: 4cqh;
 
   margin-left: auto;
 }
@@ -359,8 +360,8 @@ header div a {
   display: flex;
 
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 5.6cqh;
   font-family: sans-serif, Arial, Helvetica;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 2.6cqh;
 }

@@ -1,4 +1,4 @@
-const wszystko = document.querySelectorAll(".iloscDuze, .ilosc");
+const wszystko = document.querySelectorAll(".iloscDuze, .iloscMale");
 
 wszystko.forEach((kontener) => {
   const wyswietlacz = kontener.querySelector("span");
